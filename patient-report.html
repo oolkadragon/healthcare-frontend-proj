@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Patient Report</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header><h1>Patient Diagnostic Report</h1></header>
+    <nav>
+      <a href="index.html">Home</a><a href="test-parameters.html">Parameters</a
+      ><a href="patient-registration.html">Register</a>
+    </nav>
+    <main>
+      <table>
+        <caption>
+          Urine Test Report
+        </caption>
+        <thead>
+          <tr>
+            <th colspan="2">Patient Information</th>
+            <th>Test Parameter</th>
+            <th>Measured Value</th>
+            <th>Normal Range</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3">PT-2026-014</td>
+            <td rowspan="3">Aarav Mehta</td>
+            <td>Glucose</td>
+            <td>90 mg/dL</td>
+            <td>0–100 mg/dL</td>
+            <td class="normal">Normal</td>
+          </tr>
+          <tr>
+            <td>Protein</td>
+            <td>30 mg/dL</td>
+            <td>0–20 mg/dL</td>
+            <td class="high">High</td>
+          </tr>
+          <tr>
+            <td>pH</td>
+            <td>6.0</td>
+            <td>4.5–8.0</td>
+            <td class="normal">Normal</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="6">
+              Report status: Review recommended for abnormal values.
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+    <footer>Somaiya Care Hospital</footer>
+  </body>
+</html>

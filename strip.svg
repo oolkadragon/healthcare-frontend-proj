@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180">
+  <rect width="720" height="180" fill="#f7fbf8"/><text x="360" y="28" text-anchor="middle" font-family="Arial" font-size="18" fill="#1d4f42">Interactive Urine Test Strip</text>
+  <rect x="40" y="70" width="640" height="45" rx="18" fill="#f4e6b7" stroke="#a68c45"/>
+  <g stroke="#555"><rect x="80" y="72" width="45" height="41" fill="#f1cf48"/><rect x="140" y="72" width="45" height="41" fill="#98d4a0"/><rect x="200" y="72" width="45" height="41" fill="#ca90c9"/><rect x="260" y="72" width="45" height="41" fill="#e78988"/><rect x="320" y="72" width="45" height="41" fill="#f2b45b"/><rect x="380" y="72" width="45" height="41" fill="#ee8799"/><rect x="440" y="72" width="45" height="41" fill="#b78ddb"/><rect x="500" y="72" width="45" height="41" fill="#8ac1db"/><rect x="560" y="72" width="45" height="41" fill="#b8c75c"/><rect x="620" y="72" width="45" height="41" fill="#d19a67"/></g>
+  <text x="360" y="150" text-anchor="middle" font-family="Arial" font-size="12">Click any coloured reagent pad to learn about its analyte.</text>
+</svg>

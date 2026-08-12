@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Urine Test Strip</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header><h1>Interactive Urine Test Strip</h1></header>
+    <nav>
+      <a href="index.html">Home</a><a href="test-parameters.html">Parameters</a
+      ><a href="patient-report.html">Report</a>
+    </nav>
+    <main>
+      <section class="card">
+        <p>
+          Click a coloured reagent pad to view the corresponding analyte in the
+          parameter list.
+        </p>
+        <img
+          class="strip"
+          src="strip.svg"
+          alt="A urine test strip with ten coloured clickable reagent pads"
+          usemap="#strip-map"
+        /><map name="strip-map"
+          ><area
+            shape="rect"
+            coords="80,72,125,113"
+            href="test-parameters.html#glucose"
+            alt="Glucose reagent pad" /><area
+            shape="rect"
+            coords="140,72,185,113"
+            href="test-parameters.html#protein"
+            alt="Protein reagent pad" /><area
+            shape="rect"
+            coords="200,72,245,113"
+            href="test-parameters.html#ketones"
+            alt="Ketones reagent pad" /><area
+            shape="rect"
+            coords="260,72,305,113"
+            href="test-parameters.html#blood"
+            alt="Blood reagent pad" /><area
+            shape="rect"
+            coords="320,72,365,113"
+            href="test-parameters.html#bilirubin"
+            alt="Bilirubin reagent pad" /><area
+            shape="rect"
+            coords="380,72,425,113"
+            href="test-parameters.html#nitrite"
+            alt="Nitrite reagent pad" /><area
+            shape="rect"
+            coords="440,72,485,113"
+            href="test-parameters.html#leukocytes"
+            alt="Leukocytes reagent pad" /><area
+            shape="rect"
+            coords="500,72,545,113"
+            href="test-parameters.html#ph"
+            alt="pH reagent pad" /><area
+            shape="rect"
+            coords="560,72,605,113"
+            href="test-parameters.html#sg"
+            alt="Specific gravity reagent pad" /><area
+            shape="rect"
+            coords="620,72,665,113"
+            href="test-parameters.html#urobilinogen"
+            alt="Urobilinogen reagent pad"
+        /></map>
+      </section>
+    </main>
+    <footer>Somaiya Care Hospital</footer>
+  </body>
+</html>
