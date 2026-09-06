@@ -1,6 +1,0 @@
-form { max-width: 700px; margin: 24px auto; }
-fieldset { border: 1px solid #9bafa7; border-radius: 6px; padding: 18px; }
-legend { padding: 0 8px; color: #176b57; font-weight: bold; }
-input, select, textarea { width: 100%; padding: 9px; border: 1px solid #9bafa7; border-radius: 4px; }
-input:focus, select:focus, textarea:focus { outline: 2px solid #e5b54b; border-color: #176b57; }
-button:hover { background: #0d4e3f; }
