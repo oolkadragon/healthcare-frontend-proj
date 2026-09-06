@@ -1,0 +1,22 @@
+
+@import url("styles.css");
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4faf7;
+}
+
+h1, h2, h3 {
+  color: #176b57;
+}
+
+header h1 {
+  color: #ffffff;
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  background-color: #dceee7;
+  font-size: 13px;
+}
