@@ -1,9 +1,0 @@
-.page-layout { display: flex; max-width: 1120px; min-height: calc(100vh - 190px); margin: 0 auto; padding: 24px 20px 30px; gap: 24px; }
-.page-layout main { flex: 1; min-width: 0; margin: 0; padding: 0; }
-.categories { width: 230px; align-self: flex-start; background: #fff; border: 1px solid #bfd2c9; border-radius: 6px; box-shadow: 0 2px 7px rgba(36, 74, 60, 0.18); padding: 18px; }
-.categories h2 { margin-top: 0; }
-.categories ul { list-style: none; margin: 0; padding: 0; }
-.categories li { margin: 6px 0; }
-.categories a { display: block; padding: 8px; color: #176b57; text-decoration: none; border-radius: 4px; }
-.categories a:hover { background: #e5f5ef; color: #0d3d31; }
-@media (max-width: 700px) { .page-layout { flex-direction: column; padding: 16px; } .categories { width: 100%; } }
